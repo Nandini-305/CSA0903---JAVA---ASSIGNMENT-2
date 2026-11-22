@@ -1,8 +1,8 @@
 
 # Programming in Java – Assignment 2 (CO2)
 
-**Student name:** ____________________  
-**Register number:** ____________________  
+**Student name:** NEELAM NANDINI  
+**Register number:** 192472277 
 **Java version:** Java 17 or later  
 **Assignment:** CSA09 – Assignment 2
 
