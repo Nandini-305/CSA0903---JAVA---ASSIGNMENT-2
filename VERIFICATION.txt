@@ -1,0 +1,7 @@
+Task01_StringPerformance: OK
+Task02_ListComparison: OK
+Task03_HashSetContract: OK
+Task04_MapComparison: OK
+Task05_GenericLeaderboard: OK
+Task06_EmergencyTriage: OK
+Task07_RedesignChallenge: OK

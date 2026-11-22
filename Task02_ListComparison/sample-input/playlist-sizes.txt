@@ -1,0 +1,3 @@
+Benchmark sizes: 1000, 5000, 10000 songs
+Indexed access repetitions: 300
+Front/middle insertion repetitions: 100

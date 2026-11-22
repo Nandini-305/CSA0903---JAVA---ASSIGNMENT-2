@@ -1,0 +1,2 @@
+Treatment order begins: Meena(S1) Kumar(S1) Lata(S2) Vijay(S2) Ravi(S3) John(S3) Sara(S4) Asha(S5)
+Equal severity patients are served in arrival order.

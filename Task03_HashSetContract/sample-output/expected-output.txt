@@ -1,0 +1,3 @@
+Corrected class unique students: 2
+Second test (same regNo): 2
+Note: broken class size is not guaranteed to be 3; it depends on hash bucket placement and JVM hash values. The contract is nevertheless violated.

@@ -1,0 +1,6 @@
+Q3 – hashCode/equals contract
+Broken class set size (may be 3): 3
+Corrected class unique students: 2
+Corrected set: [192311001 Arun, 192311002 Divya]
+Second test (same regNo): 2
+Alternative: TreeSet with Comparator.comparing(s -> s.regNo), or Map<String, Student> keyed by regNo.

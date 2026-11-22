@@ -1,0 +1,23 @@
+Q1 – Ticket text construction benchmark
+Times are machine/JVM dependent; averages over 3 runs.
+\nWorkload 1: 1 ticket(s), 5 fields each
+String +       tickets=1      fields=5    average=15890 ns
+  Estimated intermediate concatenation results: about 5
+StringBuilder  tickets=1      fields=5    average=5992 ns
+  Estimated builder/buffer objects: about 1 mutable objects plus final String results
+StringBuffer   tickets=1      fields=5    average=9467 ns
+  Estimated builder/buffer objects: about 1 mutable objects plus final String results
+\nWorkload 2: 10000 ticket(s), 50 fields each
+String +       tickets=10000  fields=50   average=37309856 ns
+  Estimated intermediate concatenation results: about 500000
+StringBuilder  tickets=10000  fields=50   average=14079067 ns
+  Estimated builder/buffer objects: about 10000 mutable objects plus final String results
+StringBuffer   tickets=10000  fields=50   average=14867455 ns
+  Estimated builder/buffer objects: about 10000 mutable objects plus final String results
+\nWorkload 3: 500 ticket(s), 200 fields each
+String +       tickets=500    fields=200  average=28414872 ns
+  Estimated intermediate concatenation results: about 100000
+StringBuilder  tickets=500    fields=200  average=8347363 ns
+  Estimated builder/buffer objects: about 500 mutable objects plus final String results
+StringBuffer   tickets=500    fields=200  average=1204979 ns
+  Estimated builder/buffer objects: about 500 mutable objects plus final String results

@@ -1,0 +1,3 @@
+M003 Paracetamol 50
+M001 Cetirizine 30
+M002 Vitamin C 80

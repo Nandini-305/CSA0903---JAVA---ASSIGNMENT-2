@@ -1,0 +1,1 @@
+Run ListBenchmark.java. The program reports timing for each operation and shows ArrayDeque front/back operations. Use your own repeated measurements for the final report.

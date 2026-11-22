@@ -1,0 +1,3 @@
+Workload 1: 1 ticket, 5 fields
+Workload 2: 10000 tickets, 50 fields each
+Workload 3: 500 tickets, 200 fields each

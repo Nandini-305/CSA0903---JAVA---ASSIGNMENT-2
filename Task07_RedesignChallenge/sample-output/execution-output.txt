@@ -1,0 +1,13 @@
+Q7 – Original linear search vs redesigned indexed search
+n=1000, queries=20000
+Original ArrayList linear search: 177110839 ns, found=20000
+Redesign HashMap lookup: 2704476 ns, found=20000, index build=361485 ns
+Trade-off: HashMap uses extra memory and one-time index construction.
+n=10000, queries=20000
+Original ArrayList linear search: 508223133 ns, found=20000
+Redesign HashMap lookup: 3635689 ns, found=20000, index build=2164923 ns
+Trade-off: HashMap uses extra memory and one-time index construction.
+n=50000, queries=20000
+Original ArrayList linear search: 3036249955 ns, found=20000
+Redesign HashMap lookup: 1411990 ns, found=20000, index build=5595172 ns
+Trade-off: HashMap uses extra memory and one-time index construction.

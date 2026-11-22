@@ -1,0 +1,1 @@
+Run TicketBenchmark.java to generate timings on your own computer. Record the printed averages in your report; do not copy timings from another machine.

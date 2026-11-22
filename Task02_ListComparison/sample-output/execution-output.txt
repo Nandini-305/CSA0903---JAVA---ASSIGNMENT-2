@@ -1,0 +1,22 @@
+Q2 – ArrayList vs LinkedList (nanoseconds; environment dependent)
+\nPlaylist size: 1000
+get middle x300: ArrayList=123346 ns, LinkedList=1095962 ns
+full iteration: ArrayList=252090 ns, LinkedList=472342 ns
+insert front x100: ArrayList=49124 ns, LinkedList=135985 ns
+insert middle x100: ArrayList=39810 ns, LinkedList=296547 ns
+append 1000: ArrayList=342476 ns, LinkedList=85078 ns
+\nPlaylist size: 5000
+get middle x300: ArrayList=48724 ns, LinkedList=1525078 ns
+full iteration: ArrayList=347844 ns, LinkedList=446593 ns
+insert front x100: ArrayList=110987 ns, LinkedList=417248 ns
+insert middle x100: ArrayList=79890 ns, LinkedList=738482 ns
+append 5000: ArrayList=316627 ns, LinkedList=350518 ns
+\nPlaylist size: 10000
+get middle x300: ArrayList=24067 ns, LinkedList=1879192 ns
+full iteration: ArrayList=666685 ns, LinkedList=709530 ns
+insert front x100: ArrayList=134273 ns, LinkedList=723571 ns
+insert middle x100: ArrayList=94192 ns, LinkedList=1278536 ns
+append 10000: ArrayList=610480 ns, LinkedList=609749 ns
+\nArrayDeque Up Next: [Song A, Song B, Song C]
+Play next: Song A
+Remaining: [Song B, Song C]

@@ -1,0 +1,4 @@
+Gate 1: 192311001 Arun
+Gate 2: 192311002 Divya
+Gate 3: 192311001 Arun (duplicate scan)
+Second test: REG100 A; REG101 B; REG100 duplicate

@@ -1,0 +1,10 @@
+Q4 – Map comparison
+n=1000, 100000 lookups (ns): HashMap=8511667 TreeMap=13889241 LinkedHashMap=3221325
+report iteration (ns): sorted TreeMap=343958, insertion LinkedHashMap=401285
+n=5000, 100000 lookups (ns): HashMap=754077 TreeMap=6396409 LinkedHashMap=560926
+report iteration (ns): sorted TreeMap=442226, insertion LinkedHashMap=296517
+n=10000, 100000 lookups (ns): HashMap=1296413 TreeMap=8364236 LinkedHashMap=747286
+report iteration (ns): sorted TreeMap=613795, insertion LinkedHashMap=971134
+\nInsertion order report: [M003 Paracetamol stock=50, M001 Cetirizine stock=30, M002 Vitamin C stock=80]
+Code order report: [M001 Cetirizine stock=30, M002 Vitamin C stock=80, M003 Paracetamol stock=50]
+Hashtable is generally not preferred in new code; use modern Map implementations and explicit synchronization/concurrent collections when required.

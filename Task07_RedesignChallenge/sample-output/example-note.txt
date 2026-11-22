@@ -1,0 +1,1 @@
+Run RedesignComparison.java to compare original linear search with indexed HashMap lookup. Record both index-build time and lookup time from your own execution.

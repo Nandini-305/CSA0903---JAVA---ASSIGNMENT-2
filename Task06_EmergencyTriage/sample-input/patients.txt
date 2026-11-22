@@ -1,0 +1,8 @@
+Ravi severity=3
+Meena severity=1
+John severity=3
+Asha severity=5
+Kumar severity=1
+Lata severity=2
+Sara severity=4
+Vijay severity=2
